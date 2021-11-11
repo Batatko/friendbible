@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35vw;
+  padding: 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  margin: 10px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.user p {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 5%;
+  margin-right: 2%;
+}
+
+.user a {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.share-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2%;
+}
+
+.share {
+  width: 100px;
+  height: 30px;
+}

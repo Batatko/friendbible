@@ -1,0 +1,55 @@
+.menu-item {
+  width: 80%;
+  text-decoration: none;
+  color: black;
+  margin: 1%;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%
+}
+
+
+.card:hover {
+  cursor: pointer;
+  filter: drop-shadow(4px 5px 5px rgb(49, 49, 49));
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.user {
+  font-size: 20px;
+}
+
+.following {
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.spin {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 160, 125);
+}

@@ -1,0 +1,30 @@
+.page-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.page {
+  width: 30px;
+  padding: 1%;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.page:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.on-page {
+  cursor: pointer;
+  background-color: tomato;
+}

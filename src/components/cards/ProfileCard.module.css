@@ -1,0 +1,93 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin: 1%;
+  z-index: 1;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 2%;
+  z-index: 10;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  padding: 2%;
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.name-container p {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 2%;
+}
+
+.follow-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+}
+
+.friends-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.stats p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 2%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.data p {
+  font-size: 18px;
+}

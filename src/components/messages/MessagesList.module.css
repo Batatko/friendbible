@@ -1,0 +1,88 @@
+.message-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 55vh;
+  padding: 2%;
+}
+
+.message-window {
+  height: 100%;
+  border: rgb(255, 160, 125) 2px solid;
+  overflow: auto;
+}
+
+.message-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.message-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.message-container-friend {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.message-container-friend p {
+  max-width: 400px;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20px;
+  word-wrap: break-word;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.message-container-user {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.message-container-user p {
+  max-width: 400px;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20px;
+  word-wrap: break-word;
+  border-radius: 2px;
+  background-color: rgb(255, 160, 125);
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.name p {
+  padding: 5%;
+  margin: 1%;
+  font-size: 20px;
+}
+
+.default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20%;
+  font-size: 20px;
+}
+
+.spin {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 160, 125);
+}

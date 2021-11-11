@@ -1,0 +1,92 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 50;
+}
+
+.logo {
+  padding: 2%;
+}
+
+.logo img {
+  width: 95%;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex: 0.8;
+}
+
+.search label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search input {
+  border: 0px transparent;
+  border-radius: 2px;
+  width: 100%;
+  padding: 1%;
+  font-size: 20px;
+  z-index: 20;
+  flex: 0.45;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  flex: 0.5;
+}
+
+.header li {
+  font-size: 25px;
+  padding: 2%;
+}
+
+.header li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  cursor: pointer;
+  color: rgb(151, 23, 0);
+}
+
+.header li p {
+  color: white;
+  text-decoration: none;
+}
+
+.header li p:hover {
+  cursor: pointer;
+  color: rgb(151, 23, 0);
+}
+
+.modal-wrapper {
+  display: flex;
+  position: absolute;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}

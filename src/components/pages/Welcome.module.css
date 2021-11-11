@@ -1,0 +1,33 @@
+.feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+}
+
+.card p {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.card a:hover {
+  cursor: pointer;
+  color: rgb(151, 23, 0);
+}

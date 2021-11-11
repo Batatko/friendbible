@@ -1,0 +1,44 @@
+.feed {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  position: relative;
+  width: 33%;
+  margin: 1%;
+}
+
+.middle {
+  width: 50%;
+  margin: 1%;
+}
+
+.right {
+  width: 33%;
+  margin: 1%;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.pagination-container p:hover {
+  cursor: pointer;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}

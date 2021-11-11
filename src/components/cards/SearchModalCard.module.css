@@ -1,0 +1,22 @@
+.menu-box {
+  position: absolute;
+  width: 450px;
+  top: 35px;
+  padding: 2%;
+  border-radius: 4px;
+  background-color: rgb(255, 160, 125);
+  filter: drop-shadow(2px 2px 2px #1d1d1d);
+  z-index: 50;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spin {
+  width: 35px;
+  height: 35px;
+}

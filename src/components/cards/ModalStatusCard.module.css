@@ -1,0 +1,161 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35vw;
+  padding: 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  margin: 10px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.user p {
+  margin-right: 2%;
+}
+
+.user a {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%
+}
+
+.option-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  font-size: 25px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.comments-full {
+  height: 250px;
+}
+
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+  margin: 2px;
+  font-size: 20px;
+  background-color: rgb(255, 160, 125);
+  border-radius: 2px;
+}
+
+.comment-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.comment-user p {
+  margin-right: 2%;
+}
+
+.comment-user a {
+  margin-left: 2%;
+  color: black;
+  text-decoration: none;
+}
+
+.like-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.input-container form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.input-container form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container form textarea {
+  width: 90%;
+  height: 60px;
+  border-radius: 4px;
+  border: 0px transparent;
+  font-size: 20px;
+  background-color: rgb(255, 160, 125);
+  resize: none;
+}
+
+.input-container form textarea:focus {
+  outline: none;
+}
+
+.send {
+  width: 100px;
+  height: 30px;
+}
+
+

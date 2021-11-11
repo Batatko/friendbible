@@ -1,0 +1,104 @@
+.feed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.chat-container-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  margin: 5px;
+}
+
+.chat-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: tomato;
+  border-radius: 4px;
+}
+
+.friends-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-color: tomato;
+  border-radius: 4px;
+  z-index: 3;
+  transition: transform 1s ease-in-out;
+}
+
+.friends-container-close {
+  transform: translateY(100%);
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding: 2%;
+  margin: 2%;
+  font-size: 20px;
+  border-radius: 2px;
+  color: white;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: rgb(151, 23, 0);
+}
+
+.selected {
+  filter: drop-shadow(4px 5px 5px rgb(151, 23, 0));
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 100%;
+  margin: 5px;
+  background-color: tomato;
+  border-radius: 4px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+
+.spin {
+  background-color: rgb(255, 160, 125);
+}
+
