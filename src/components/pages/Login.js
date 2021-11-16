@@ -23,7 +23,6 @@ const Login = () => {
 
   const inputDataHandler = (input, id) => {
     setEnteredInput((prevState) => ({ ...prevState, [id]: input }));
-    console.log(enteredInput);
   };
 
   const signInHandler = (e) => {
