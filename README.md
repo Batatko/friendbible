@@ -1,6 +1,6 @@
 # FriendBible
 
-FriendBible is a socail network app, one of my first learning projects in front end developing.  
+FriendBible is a social network app, one of my first learning projects in front end developing.  
 It's written in JavaScript language with React framework, using Firebase as a cloud hosted-database and deployment server.
 
 Installation:
